@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="./assets/style/bootstrap.min.css" rel="stylesheet" />
+        <!-- Custom CSS -->
+        <link href="./assets/style/game.css" rel="stylesheet" />
+
+        <title>Binar Challenge FW C4</title>
+  </head>
+
+  <body>
+
+   <!-- Bagian Navbar -->
+  <div class="container-fluid mt-3"> 
+        <!-- Navbar Component -->
+        <div class="row align-items-center">
+
+            <!-- Back Button -->
+            <div class="col-1 fs-1 fw-bolder text-end custom-back-button">
+                <a href="index.html" class="text-reset text-decoration-none">
+                &lt;
+                </a>
+            </div>
+
+            <!-- Logo-->
+            <div class="col-1 text-center">
+                <img src="./assets/images/logo.png" class="custom-logo" alt="logo" />
+            </div>
+
+            <!-- Game Tittle -->
+            <div class="col fs-2 fw-bold custom-game-title ms-3">
+                ROCK PAPER SCISSOR
+            </div>
+
+        </div>
+  </div>
+
+    <!-- Game Section -->
+    <div class="container text-center custom-game-section">
+
+        <!-- Player & Com Tittle -->
+        <div class="row my-1 justify-content-center align-items-center">
+
+            <div class="badge col-2 fs-4 fw-bold custom-game-player-name">
+                PLAYER 1
+            </div>
+
+            <div class="col-2">
+            </div>
+
+            <div class="col-2 fs-4 fw-bold custom-game-player-name">
+                COM 
+            </div>
+        </div>
+        
+    
+
+        <!-- Rock Choice Component -->
+        <div class="row my-4 justify-content-center align-items-center">
+
+            <div class="col-3 custom-choice-background align-items-center" id="player-batu">
+                <img class="custom-choice" src="./assets/images/batu.png" alt="player-batu"/>
+            </div>
+
+            <div class="col-3">
+            </div>
+
+            <div class="col-3 custom-choice-background" id="computer-batu">
+                <img class="custom-choice" src="./assets/images/batu.png" alt="computer-batu"/>
+            </div>
+
+        </div>
+
+        <!-- Paper Choice Component -->
+        <div class="row my-5 justify-content-center align-items-center">
+
+            <div class="col-3 custom-choice-background" id="player-kertas">
+                <img class="custom-choice" src="./assets/images/kertas.png" alt="player-kertas"/>
+            </div>
+
+            <div class=" text-center col-3 mt-3 fw-bold custom-vs-text" id="vs">
+                VS
+            </div>
+
+            <div class="col-3 custom-choice-background" id="computer-kertas">
+                <img class="custom-choice" src="./assets/images/kertas.png" alt="computer-kertas"/>
+            </div>
+
+        </div>
+
+        <!-- Scissors Choice Component -->
+        <div class="row my-5 justify-content-center align-items-center">
+
+            <div class="col-3 custom-choice-background" id="player-gunting">
+                <img class="custom-choice" src="./assets/images/gunting.png" alt="player-gunting"/>
+            </div>
+
+            <div class="col-3">
+            </div>
+
+            <div class="col-3 custom-choice-background" id="computer-gunting">
+                <img class="custom-choice" src="./assets/images/gunting.png" alt="computer-gunting"/>
+            </div>
+
+        </div>
+
+        <!-- Reset Button Component -->
+        <div class="row my-5 justify-content-center align-items-center">
+
+        <div class="row mb-4 justify-content-center align-items-center"id="reset">
+            <img class="custom-reset" src="./assets/images/refresh.png" alt="refresh"/>
+        </div>
+
+    </div>
+
+    <!-- Javascript -->
+    <script src="./assets/script/game.js"></script>
+    
+
+</body>
+
+</html>
